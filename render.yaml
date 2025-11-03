@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: uts-ecommerce-final
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
